@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../img/photo_2023-12-16_17-16-34.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.sign-up-info {
+}
+.sign-up-title {
+    width: 525px;
+    color: #FFF;
+font-size: 50px;
+font-weight: 700;
+line-height: 55px;
+letter-spacing: -0.521px;
+margin-bottom: 11px;
+}
+.sign-up-text {
+    width: 525px;
+    color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62;
+}
+.sign-up-forma {
+}
+.sign-up-form-text{
+    padding: 17px 0px;
+    color: #FFF;
+text-align: center;
+font-size: 15px;
+font-weight: 700;
+line-height: 1.73;
+letter-spacing: 0.268px;
+    border-radius: 10px;
+background: #5E54A4;
+box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+margin-bottom: 24px;
+}
+..sign-up-span {
+}
+.sign-up-form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+.sign-up__input {
+    color: #3D3B48;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.85;
+letter-spacing: 0.25px;
+    padding: 15px 32px;
+    border-radius: 5px;
+border: 1px solid #DEDEDE;
+background: #FFF;
+}
+.sign-up-btn {
+    color: #FFF;
+font-size: 15px;
+font-weight: 600;
+line-height: 1.73;
+letter-spacing: 1px;
+border-radius: 5px;
+background: #38CC8B;
+box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+border: none;
+padding: 15px 0px;
+}
+.sign-up-service {
+    color: #BAB7D4;
+text-align: center;
+font-size: 11px;
+font-weight: 500;
+line-height: 1.73;
+}
+.sign-up-old{
+    color: #FF7979;
+font-size: 11px;
+font-weight: 700;
+line-height: 1.73;
+}
